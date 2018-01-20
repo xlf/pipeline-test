@@ -9,7 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                     echo 'one'
-                    sh 'yarn --version'
+                    sh 'pwd'
                     echo 'three'
 
             }
